@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background-color: white;
+    padding: 1rem;
+}
+
+
+
+#user-posts ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.post-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.post-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.post-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
